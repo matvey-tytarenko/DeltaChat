@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+:root {
+  --bg: #131324;
+}
+
+.FormContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  background-image: url(https://ogrforum.ogaugerr.com/fileSendAction/fcType/0/fcOid/91673115809534972/filePointer/91673115809535186/fodoid/91673115809535180/imageType/MEDIUM/inlineImage/true/neon%2520plain%2520rolling.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.FormContainer .brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.FormContainer .brand img {
+  height: 15rem;
+}
+
+.FormContainer .brand h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.FormContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: #6600bf;
+}
