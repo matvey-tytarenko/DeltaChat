@@ -35,6 +35,9 @@
     h1 {
       text-transform: uppercase;
     }
+    h2 {
+      text-transform: uppercase;
+    }
   }
 
   form {
@@ -64,6 +67,7 @@
         font-size: 1.3rem;
         cursor: pointer;
         transition: all 0.5s;
+        outline: none;
         &:hover {
           background: var(--btn-color);
           color: #fff;
