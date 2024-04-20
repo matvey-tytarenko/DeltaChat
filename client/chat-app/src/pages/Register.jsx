@@ -49,7 +49,9 @@ function Register() {
       </form>
 
       <div className="links">
-        <Link to=""></Link>
+        <Link to="https://github.com/matvey-tytarenko/DeltaChat" className="github Link" alt="Source Code">
+          <i className="fab fa-github-square github-icon"></i>
+        </Link>
       </div>
     </div>
   );
