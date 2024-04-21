@@ -36,6 +36,12 @@ function Register() {
     }
   };
 
+  useEffect(() => {
+    if (localStorage.getItem("chat-app-user")) {
+      navigate("/");
+    }
+  }, []);
+
   const ToastOpt = {
     position: "bottom-right",
     autoClose: 5000,

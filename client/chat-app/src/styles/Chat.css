@@ -1,5 +1,16 @@
 .container {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  background-color: #25034f;
+}
+
+.container .chat-container {
+  height: 85vh;
+  width: 50vw;
+  background: #5500bc;
+  display: grid;
+  grid-template-columns: 25% 75%;
 }

@@ -41,6 +41,12 @@ function Login() {
     theme: "colored",
   };
 
+  useEffect(() => {
+    if (localStorage.getItem("chat-app-user")) {
+      navigate("/");
+    }
+  }, []);
+
   const handleValidation = () => {
     const { username, password } = values;
     if (username.length < 1 || password.length < 1) {
